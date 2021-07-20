@@ -6,7 +6,7 @@ function numb(a,b) {
   }
   numb(a,b);
 }
-numb(2,5);
+numb(1,8);
 
 
 window.onload = function(){
