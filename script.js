@@ -1,11 +1,12 @@
-function numb(a) {
-  if (a >= 9) {
-    return;
+function numb(a,b) {
+  console.log(a);
+  a++;
+  if (a > b){
+      return;
   }
-  console.log(a)
-  numb (a +1);
+  numb(a,b);
 }
-numb(1);
+numb(2,5);
 
 
 window.onload = function(){
